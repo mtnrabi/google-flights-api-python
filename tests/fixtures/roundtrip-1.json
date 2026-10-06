@@ -1,0 +1,100 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/v1/flights/roundtrip",
+    "json": {
+      "limit": 3,
+      "from_airport": "JFK",
+      "to_airport": "LHR",
+      "departure_date": "2026-11-17",
+      "return_date": "2026-11-24"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "content-type": "application/json",
+      "x-search-status": "ok"
+    },
+    "json": [
+      {
+        "price_range_in_relation_to_other_periods": "typical",
+        "price_insights_low": 480,
+        "price_insights_high": 670,
+        "from_airport": "New York (JFK)",
+        "to_airport": "London (LHR)",
+        "departure_date": "2026-11-17",
+        "return_date": "2026-11-24",
+        "total_price": "$817",
+        "total_price_as_number": 817,
+        "total_duration_seconds": 54000,
+        "total_stops": 0,
+        "buy_link": "https://www.google.com/travel/flights?tfs=GjsSCjIwMjYtMTEtMTciHwoDSkZLEgoyMDI2LTExLTE3GgNMSFIqAkFBMgMxMDBqBRIDSkZLcgUSA0xIUho7EgoyMDI2LTExLTI0Ih8KA0xIUhIKMjAyNi0xMS0yNBoDSkZLKgJCQTIDMTczagUSA0xIUnIFEgNKRktCAQFIAZgBAQ&curr=usd",
+        "departure_flight_departure_description": "6:25 PM on Tue, Nov 17",
+        "departure_flight_arrival_description": "6:20 AM on Wed, Nov 18",
+        "departure_flight_airline": "American | Iberia, Finnair, British Airways",
+        "departure_flight_stops": 0,
+        "departure_flight_duration": "6 hr 55 min",
+        "departure_stops_info": [],
+        "return_flight_departure_description": "11:20 AM on Tue, Nov 24",
+        "return_flight_arrival_description": "2:25 PM on Tue, Nov 24",
+        "return_flight_airline": "British Airways | American, Finnair, Iberia",
+        "return_flight_stops": 0,
+        "return_flight_duration": "8 hr 5 min",
+        "return_stops_info": []
+      },
+      {
+        "price_range_in_relation_to_other_periods": "typical",
+        "price_insights_low": 480,
+        "price_insights_high": 670,
+        "from_airport": "New York (JFK)",
+        "to_airport": "London (LHR)",
+        "departure_date": "2026-11-17",
+        "return_date": "2026-11-24",
+        "total_price": "$817",
+        "total_price_as_number": 817,
+        "total_duration_seconds": 54000,
+        "total_stops": 0,
+        "buy_link": "https://www.google.com/travel/flights?tfs=GjsSCjIwMjYtMTEtMTciHwoDSkZLEgoyMDI2LTExLTE3GgNMSFIqAkFBMgMxMDBqBRIDSkZLcgUSA0xIUho7EgoyMDI2LTExLTI0Ih8KA0xIUhIKMjAyNi0xMS0yNBoDSkZLKgJCQTIDMTE1agUSA0xIUnIFEgNKRktCAQFIAZgBAQ&curr=usd",
+        "departure_flight_departure_description": "6:25 PM on Tue, Nov 17",
+        "departure_flight_arrival_description": "6:20 AM on Wed, Nov 18",
+        "departure_flight_airline": "American | Iberia, Finnair, British Airways",
+        "departure_flight_stops": 0,
+        "departure_flight_duration": "6 hr 55 min",
+        "departure_stops_info": [],
+        "return_flight_departure_description": "2:15 PM on Tue, Nov 24",
+        "return_flight_arrival_description": "5:20 PM on Tue, Nov 24",
+        "return_flight_airline": "British Airways | American, Finnair, Iberia",
+        "return_flight_stops": 0,
+        "return_flight_duration": "8 hr 5 min",
+        "return_stops_info": []
+      },
+      {
+        "price_range_in_relation_to_other_periods": "typical",
+        "price_insights_low": 480,
+        "price_insights_high": 670,
+        "from_airport": "New York (JFK)",
+        "to_airport": "London (LHR)",
+        "departure_date": "2026-11-17",
+        "return_date": "2026-11-24",
+        "total_price": "$817",
+        "total_price_as_number": 817,
+        "total_duration_seconds": 53700,
+        "total_stops": 0,
+        "buy_link": "https://www.google.com/travel/flights?tfs=GjsSCjIwMjYtMTEtMTciHwoDSkZLEgoyMDI2LTExLTE3GgNMSFIqAkJBMgMxODJqBRIDSkZLcgUSA0xIUho7EgoyMDI2LTExLTI0Ih8KA0xIUhIKMjAyNi0xMS0yNBoDSkZLKgJCQTIDMTczagUSA0xIUnIFEgNKRktCAQFIAZgBAQ&curr=usd",
+        "departure_flight_departure_description": "11:20 PM on Tue, Nov 17",
+        "departure_flight_arrival_description": "11:10 AM on Wed, Nov 18",
+        "departure_flight_airline": "British Airways | American, Finnair, Iberia",
+        "departure_flight_stops": 0,
+        "departure_flight_duration": "6 hr 50 min",
+        "departure_stops_info": [],
+        "return_flight_departure_description": "11:20 AM on Tue, Nov 24",
+        "return_flight_arrival_description": "2:25 PM on Tue, Nov 24",
+        "return_flight_airline": "British Airways | American, Finnair, Iberia",
+        "return_flight_stops": 0,
+        "return_flight_duration": "8 hr 5 min",
+        "return_stops_info": []
+      }
+    ]
+  }
+}

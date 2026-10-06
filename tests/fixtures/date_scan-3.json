@@ -1,0 +1,210 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/v1/flights/oneway",
+    "json": {
+      "from_airport": "JFK",
+      "to_airport": "LHR",
+      "departure_date": "2026-11-19"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "content-type": "application/json",
+      "x-search-status": "ok"
+    },
+    "json": [
+      {
+        "price_range_in_relation_to_other_periods": "typical",
+        "price_insights_low": 170,
+        "price_insights_high": 300,
+        "from_airport": "New York (JFK)",
+        "to_airport": "London (LHR)",
+        "departure_date": "2026-11-19",
+        "price": "$295",
+        "price_as_number": 295,
+        "duration": "7 hr 10 min",
+        "duration_seconds": 25800,
+        "buy_link": "https://www.google.com/travel/flights?tfs=GjoSCjIwMjYtMTEtMTkiHgoDSkZLEgoyMDI2LTExLTE5GgNMSFIqAlZTMgIyNmoFEgNKRktyBRIDTEhSQgEBSAGYAQI&curr=usd",
+        "airline": "Virgin Atlantic | Air France, Delta, KLM",
+        "stops": 0,
+        "stops_info": [],
+        "departure_description": "8:00 AM on Thu, Nov 19",
+        "arrival_description": "8:10 PM on Thu, Nov 19"
+      },
+      {
+        "price_range_in_relation_to_other_periods": "typical",
+        "price_insights_low": 170,
+        "price_insights_high": 300,
+        "from_airport": "New York (JFK)",
+        "to_airport": "London (LHR)",
+        "departure_date": "2026-11-19",
+        "price": "$295",
+        "price_as_number": 295,
+        "duration": "6 hr 55 min",
+        "duration_seconds": 24900,
+        "buy_link": "https://www.google.com/travel/flights?tfs=GjsSCjIwMjYtMTEtMTkiHwoDSkZLEgoyMDI2LTExLTE5GgNMSFIqAkJBMgMxNzhqBRIDSkZLcgUSA0xIUkIBAUgBmAEC&curr=usd",
+        "airline": "British Airways | American, Iberia, Finnair",
+        "stops": 0,
+        "stops_info": [],
+        "departure_description": "8:05 AM on Thu, Nov 19",
+        "arrival_description": "8:00 PM on Thu, Nov 19"
+      },
+      {
+        "price_range_in_relation_to_other_periods": "typical",
+        "price_insights_low": 170,
+        "price_insights_high": 300,
+        "from_airport": "New York (JFK)",
+        "to_airport": "London (LHR)",
+        "departure_date": "2026-11-19",
+        "price": "$295",
+        "price_as_number": 295,
+        "duration": "6 hr 55 min",
+        "duration_seconds": 24900,
+        "buy_link": "https://www.google.com/travel/flights?tfs=GjsSCjIwMjYtMTEtMTkiHwoDSkZLEgoyMDI2LTExLTE5GgNMSFIqAkFBMgMxMDBqBRIDSkZLcgUSA0xIUkIBAUgBmAEC&curr=usd",
+        "airline": "American | British Airways, Iberia, Finnair",
+        "stops": 0,
+        "stops_info": [],
+        "departure_description": "6:25 PM on Thu, Nov 19",
+        "arrival_description": "6:20 AM on Fri, Nov 20"
+      },
+      {
+        "price_range_in_relation_to_other_periods": "typical",
+        "price_insights_low": 170,
+        "price_insights_high": 300,
+        "from_airport": "New York (JFK)",
+        "to_airport": "London (LHR)",
+        "departure_date": "2026-11-19",
+        "price": "$295",
+        "price_as_number": 295,
+        "duration": "7 hr",
+        "duration_seconds": 25200,
+        "buy_link": "https://www.google.com/travel/flights?tfs=GjsSCjIwMjYtMTEtMTkiHwoDSkZLEgoyMDI2LTExLTE5GgNMSFIqAkFBMgMxNDJqBRIDSkZLcgUSA0xIUkIBAUgBmAEC&curr=usd",
+        "airline": "American | British Airways, Iberia, Finnair",
+        "stops": 0,
+        "stops_info": [],
+        "departure_description": "10:10 AM on Thu, Nov 19",
+        "arrival_description": "10:10 PM on Thu, Nov 19"
+      },
+      {
+        "price_range_in_relation_to_other_periods": "typical",
+        "price_insights_low": 170,
+        "price_insights_high": 300,
+        "from_airport": "New York (JFK)",
+        "to_airport": "London (LHR)",
+        "departure_date": "2026-11-19",
+        "price": "$295",
+        "price_as_number": 295,
+        "duration": "7 hr",
+        "duration_seconds": 25200,
+        "buy_link": "https://www.google.com/travel/flights?tfs=GjsSCjIwMjYtMTEtMTkiHwoDSkZLEgoyMDI2LTExLTE5GgNMSFIqAkJBMgMxODBqBRIDSkZLcgUSA0xIUkIBAUgBmAEC&curr=usd",
+        "airline": "British Airways | American, Iberia, Finnair",
+        "stops": 0,
+        "stops_info": [],
+        "departure_description": "5:50 PM on Thu, Nov 19",
+        "arrival_description": "5:50 AM on Fri, Nov 20"
+      },
+      {
+        "price_range_in_relation_to_other_periods": "typical",
+        "price_insights_low": 170,
+        "price_insights_high": 300,
+        "from_airport": "New York (JFK)",
+        "to_airport": "London (LHR)",
+        "departure_date": "2026-11-19",
+        "price": "$295",
+        "price_as_number": 295,
+        "duration": "7 hr 5 min",
+        "duration_seconds": 25500,
+        "buy_link": "https://www.google.com/travel/flights?tfs=GjsSCjIwMjYtMTEtMTkiHwoDSkZLEgoyMDI2LTExLTE5GgNMSFIqAkJBMgMxMTJqBRIDSkZLcgUSA0xIUkIBAUgBmAEC&curr=usd",
+        "airline": "British Airways | American, Iberia, Finnair",
+        "stops": 0,
+        "stops_info": [],
+        "departure_description": "6:10 PM on Thu, Nov 19",
+        "arrival_description": "6:15 AM on Fri, Nov 20"
+      },
+      {
+        "price_range_in_relation_to_other_periods": "typical",
+        "price_insights_low": 170,
+        "price_insights_high": 300,
+        "from_airport": "New York (JFK)",
+        "to_airport": "London (LHR)",
+        "departure_date": "2026-11-19",
+        "price": "$295",
+        "price_as_number": 295,
+        "duration": "7 hr",
+        "duration_seconds": 25200,
+        "buy_link": "https://www.google.com/travel/flights?tfs=GjsSCjIwMjYtMTEtMTkiHwoDSkZLEgoyMDI2LTExLTE5GgNMSFIqAkJBMgMxNzRqBRIDSkZLcgUSA0xIUkIBAUgBmAEC&curr=usd",
+        "airline": "British Airways | American, Iberia, Finnair",
+        "stops": 0,
+        "stops_info": [],
+        "departure_description": "6:40 PM on Thu, Nov 19",
+        "arrival_description": "6:40 AM on Fri, Nov 20"
+      },
+      {
+        "price_range_in_relation_to_other_periods": "typical",
+        "price_insights_low": 170,
+        "price_insights_high": 300,
+        "from_airport": "New York (JFK)",
+        "to_airport": "London (LHR)",
+        "departure_date": "2026-11-19",
+        "price": "$295",
+        "price_as_number": 295,
+        "duration": "7 hr",
+        "duration_seconds": 25200,
+        "buy_link": "https://www.google.com/travel/flights?tfs=GjsSCjIwMjYtMTEtMTkiHwoDSkZLEgoyMDI2LTExLTE5GgNMSFIqAkJBMgMxNzZqBRIDSkZLcgUSA0xIUkIBAUgBmAEC&curr=usd",
+        "airline": "British Airways | American, Iberia, Finnair",
+        "stops": 0,
+        "stops_info": [],
+        "departure_description": "7:05 PM on Thu, Nov 19",
+        "arrival_description": "7:05 AM on Fri, Nov 20"
+      },
+      {
+        "price_range_in_relation_to_other_periods": "typical",
+        "price_insights_low": 170,
+        "price_insights_high": 300,
+        "from_airport": "New York (JFK)",
+        "to_airport": "London (LHR)",
+        "departure_date": "2026-11-19",
+        "price": "$293",
+        "price_as_number": 293,
+        "duration": "9 hr 45 min",
+        "duration_seconds": 35100,
+        "buy_link": "https://www.google.com/travel/flights?tfs=GlwSCjIwMjYtMTEtMTkiHwoDSkZLEgoyMDI2LTExLTE5GgNEVUIqAkVJMgMxMDgiHwoDRFVCEgoyMDI2LTExLTIwGgNMSFIqAkVJMgMxNTZqBRIDSkZLcgUSA0xIUkIBAUgBmAEC&curr=usd",
+        "airline": "Aer Lingus",
+        "stops": 1,
+        "stops_info": [
+          {
+            "stop_airport": "DUB",
+            "stop_duration_seconds": 6300
+          }
+        ],
+        "departure_description": "7:25 PM on Thu, Nov 19",
+        "arrival_description": "10:10 AM on Fri, Nov 20"
+      },
+      {
+        "price_range_in_relation_to_other_periods": "typical",
+        "price_insights_low": 170,
+        "price_insights_high": 300,
+        "from_airport": "New York (JFK)",
+        "to_airport": "London (LHR)",
+        "departure_date": "2026-11-19",
+        "price": "$293",
+        "price_as_number": 293,
+        "duration": "11 hr",
+        "duration_seconds": 39600,
+        "buy_link": "https://www.google.com/travel/flights?tfs=GlwSCjIwMjYtMTEtMTkiHwoDSkZLEgoyMDI2LTExLTE5GgNEVUIqAkVJMgMxMDgiHwoDRFVCEgoyMDI2LTExLTIwGgNMSFIqAkVJMgMxNThqBRIDSkZLcgUSA0xIUkIBAUgBmAEC&curr=usd",
+        "airline": "Aer Lingus",
+        "stops": 1,
+        "stops_info": [
+          {
+            "stop_airport": "DUB",
+            "stop_duration_seconds": 10800
+          }
+        ],
+        "departure_description": "7:25 PM on Thu, Nov 19",
+        "arrival_description": "11:25 AM on Fri, Nov 20"
+      }
+    ]
+  }
+}

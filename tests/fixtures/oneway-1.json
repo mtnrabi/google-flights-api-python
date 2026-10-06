@@ -1,0 +1,75 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/v1/flights/oneway",
+    "json": {
+      "limit": 3,
+      "from_airport": "JFK",
+      "to_airport": "LHR",
+      "departure_date": "2026-11-17"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "content-type": "application/json",
+      "x-search-status": "ok"
+    },
+    "json": [
+      {
+        "price_range_in_relation_to_other_periods": "typical",
+        "price_insights_low": 170,
+        "price_insights_high": 300,
+        "from_airport": "New York (JFK)",
+        "to_airport": "London (LHR)",
+        "departure_date": "2026-11-17",
+        "price": "$295",
+        "price_as_number": 295,
+        "duration": "7 hr 10 min",
+        "duration_seconds": 25800,
+        "buy_link": "https://www.google.com/travel/flights?tfs=GjoSCjIwMjYtMTEtMTciHgoDSkZLEgoyMDI2LTExLTE3GgNMSFIqAlZTMgIyNmoFEgNKRktyBRIDTEhSQgEBSAGYAQI&curr=usd",
+        "airline": "Virgin Atlantic | Air France, Delta, KLM",
+        "stops": 0,
+        "stops_info": [],
+        "departure_description": "8:00 AM on Tue, Nov 17",
+        "arrival_description": "8:10 PM on Tue, Nov 17"
+      },
+      {
+        "price_range_in_relation_to_other_periods": "typical",
+        "price_insights_low": 170,
+        "price_insights_high": 300,
+        "from_airport": "New York (JFK)",
+        "to_airport": "London (LHR)",
+        "departure_date": "2026-11-17",
+        "price": "$295",
+        "price_as_number": 295,
+        "duration": "7 hr 10 min",
+        "duration_seconds": 25800,
+        "buy_link": "https://www.google.com/travel/flights?tfs=GjwSCjIwMjYtMTEtMTciIAoDSkZLEgoyMDI2LTExLTE3GgNMSFIqAkI2MgQxMTA3agUSA0pGS3IFEgNMSFJCAQFIAZgBAg&curr=usd",
+        "airline": "JetBlue",
+        "stops": 0,
+        "stops_info": [],
+        "departure_description": "9:30 AM on Tue, Nov 17",
+        "arrival_description": "9:40 PM on Tue, Nov 17"
+      },
+      {
+        "price_range_in_relation_to_other_periods": "typical",
+        "price_insights_low": 170,
+        "price_insights_high": 300,
+        "from_airport": "New York (JFK)",
+        "to_airport": "London (LHR)",
+        "departure_date": "2026-11-17",
+        "price": "$295",
+        "price_as_number": 295,
+        "duration": "6 hr 55 min",
+        "duration_seconds": 24900,
+        "buy_link": "https://www.google.com/travel/flights?tfs=GjsSCjIwMjYtMTEtMTciHwoDSkZLEgoyMDI2LTExLTE3GgNMSFIqAkFBMgMxMDBqBRIDSkZLcgUSA0xIUkIBAUgBmAEC&curr=usd",
+        "airline": "American | British Airways, Iberia, Finnair",
+        "stops": 0,
+        "stops_info": [],
+        "departure_description": "6:25 PM on Tue, Nov 17",
+        "arrival_description": "6:20 AM on Wed, Nov 18"
+      }
+    ]
+  }
+}

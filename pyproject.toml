@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "flightpowers"
+dynamic = ["version"]
+description = "Google Flights API client for Python: live fares with Google's price band, round trips in one request, plus Booking.com hotel rates (FlightPowers)."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.9"
+authors = [{ name = "Matan Rabi", email = "app@flightpowers.com" }]
+keywords = [
+  "google flights api", "google flights", "flights api", "flight price api",
+  "airfare api", "flight search api", "hotel api", "booking.com api", "travel api",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Topic :: Internet :: WWW/HTTP",
+  "Typing :: Typed",
+]
+dependencies = ["httpx>=0.24,<1"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://flightpowers.com/flights-api"
+Documentation = "https://flightpowers.com/docs"
+Source = "https://github.com/mtnrabi/google-flights-api-python"
+"Get a key" = "https://rapidapi.com/mtnrabi/api/google-flights-live-api"
+
+[tool.hatch.version]
+path = "src/flightpowers/client.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/flightpowers"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

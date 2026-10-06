@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/v1/flights/oneway",
+    "json": {
+      "from_airport": "JFK",
+      "to_airport": "LHR",
+      "departure_date": "2026-11-31"
+    }
+  },
+  "response": {
+    "status": 422,
+    "headers": {
+      "content-type": "application/json"
+    },
+    "json": {
+      "detail": "departure_date must be a real calendar date in YYYY-MM-DD format (e.g. 2026-11-05), got '2026-11-31'",
+      "help": "https://flightpowers.com/docs/quickstart#errors",
+      "hint": "departure_date must be YYYY-MM-DD, for example 2026-11-05",
+      "field": "departure_date"
+    }
+  }
+}

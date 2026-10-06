@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "POST",
+    "path": "/v1/hotels/by-name",
+    "json": {
+      "area": "London",
+      "adults": 2,
+      "currency": "USD",
+      "hotel_name": "The Hoxton Shoreditch",
+      "checkin_date": "2026-11-17",
+      "checkout_date": "2026-11-20"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "content-type": "application/json"
+    },
+    "json": {
+      "name": "The Hoxton, Shoreditch",
+      "matched_name": "The Hoxton, Shoreditch",
+      "match_confidence": 1,
+      "matched_via": "name",
+      "available": true,
+      "price_string": "US$1,626",
+      "price": 1626,
+      "review_score": 8.7,
+      "review_count": 352,
+      "room_type": "Cozy Twin",
+      "image_url": "https://cf.bstatic.com/xdata/images/hotel/square240/826978849.webp?k=85b936cfaa9cb371a4ba9787cf91f348848e55e100b4b1b3bb3b837392c3b44f&o=",
+      "link": "https://www.booking.com/hotel/gb/hoxton.html?aid=304142&label=gen173nr-10CAQoggJCDGhvdGVsXzQyNTAxMEgxWARo_gGIAQGYATO4AQfIAQzYAQPoAQH4AQGIAgGoAgG4AuCzldYGwAIB0gIkNTNlZGQ2OWMtYjI3NC00MzVmLWE3ZTItMTc5YmMwMTIyZDgx2AIB4AIB&ucfs=1&arphpl=1&checkin=2026-11-17&checkout=2026-11-20&dest_id=425010&dest_type=hotel&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=popularity&srpvid=cfb68ff0e4831786&srepoch=1791318498&all_sr_blocks=42501002_262904729_2_0_0&highlighted_blocks=42501002_262904729_2_0_0&matching_block_id=42501002_262904729_2_0_0&sr_pri_blocks=42501002_262904729_2_0_0__122700&from_sustainable_property_sr=1&from=searchresults",
+      "nights": 3,
+      "adults": 2,
+      "children": null,
+      "latitude": 51.525611900472484,
+      "longitude": -0.08284136652946472,
+      "retrieved_at": "2026-10-06T20:28:19.154Z"
+    }
+  }
+}
