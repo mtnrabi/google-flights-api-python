@@ -1,5 +1,10 @@
 # Google Flights API for Python: live fares in one script
 
+> **The official Python client is now [github.com/mtnrabi/flightpowers-sdk](https://github.com/mtnrabi/flightpowers-sdk):
+> `pip install flightpowers`** (on PyPI since 2026-11-08; it covers flights, Booking.com, Airbnb and Google Hotels).
+> Use that one for new code. This repo is an older client that was never published to PyPI; it is kept for reference only
+> and gets no updates. Both packages import as `flightpowers`, so do not install them in the same environment.
+
 FlightPowers is a travel data API for developers and AI agents: live Google Flights fares with Google's own low / typical / high
 price band and a round trip priced as one request, over REST, MCP servers and an n8n node on one RapidAPI key (also called a
 flight price API, airfare API or flight search API). Free tier of 10 searches; PRO is $10 for 2,500 flight searches, about a
